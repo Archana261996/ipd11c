@@ -45,3 +45,4 @@ bool graph_has_path(const_graph_t g, vertex_t start, vertex_t goal)
 
     return has_path_helper(g, start, goal, seen);
 }
+
